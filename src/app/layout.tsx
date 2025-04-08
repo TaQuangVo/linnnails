@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { Poppins} from "next/font/google";
 import "./globals.css";
 
-const geistSans = Poppins({
-  weight: ['400', '500', '600', '700'],
-});
+const poppins = Poppins({
+  weight: ['400', '600'], // whatever weights you need
+  subsets: ['latin'],     // ✅ you must add this!
+  preload: true,          // optional (default is true)
+})
 
 
 export default function RootLayout({
@@ -15,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className='hide-scrollbar '>
       <body
-        className={`${geistSans.className} antialiased hide-scollbar `}
+        className={`${poppins.className} antialiased hide-scollbar `}
       >
         {children}
       </body>
