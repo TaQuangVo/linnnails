@@ -8,7 +8,7 @@ import { BrickWall, Construction, Drill, HardHat, Pickaxe } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen flex-col items-center justify-center bg-white px-4">
+    <main className="relative flex min-h-svh flex-col items-center justify-center bg-white px-4">
       <div className="absolute top-6 flex space-x-4">
         <span>Linnnails Studio.</span>
       </div>
