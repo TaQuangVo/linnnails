@@ -76,6 +76,11 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+
+  font-size: 11px;
+  --app-padding: 6rem;
+  --herobutton-height: 13rem;
 }
 
 .dark {
@@ -127,4 +132,25 @@
 }
 .hide-scrollbar::-webkit-scrollbar { 
   display: none;  /* Safari and Chrome */
+}
+
+.bg-pattern {
+  background-color: #f0edeba2;
+}
+
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 8px;
+    --app-padding: 3rem;
+    --herobutton-height: 20rem;
+  }
+}
+
+@media (max-width: 400px) {
+  :root {
+    font-size: 7px;
+    --app-padding: 2rem;
+    --herobutton-height: 20rem;
+  }
 }
