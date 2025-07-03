@@ -1,7 +1,8 @@
 import AdressSection from "@/components/AdressSection";
 import FooterSection from "@/components/FooterSection";
 import GrainedOverlay from "@/components/GrainedOverlay";
-import HeroSection from "@/components/HeroSection";
+// Ensure the correct path to HeroSection is used
+import HeroSection from "../components/HeroSection";
 import InfoSection from "@/components/InfoSection";
 import PricingDialog from "@/components/PricingDialog";
 import ServiceSection from "@/components/ServiceSection";
