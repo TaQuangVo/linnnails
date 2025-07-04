@@ -20,7 +20,7 @@ export default function FooterSection() {
             </div>
 
             <div className="absolute top-0 right-0 -translate-y-full flex gap-15 lg:gap-30 items-end">
-                <span className="text-4xl font-bold">Social media:</span>
+                <span className="text-4xl font-bold">Sociala medier:</span>
                     <div className="relative w-30 h-30 lg:w-52 lg:h-52">
                         <Link
                             href="https://www.tiktok.com/@linnnails.se?_t=ZS-8vMwmwlR3H6&_r=1" // Replace with actual links

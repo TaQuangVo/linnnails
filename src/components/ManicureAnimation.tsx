@@ -18,7 +18,7 @@ const ManicureAnimation = () => {
   }, []);
 
   return (
-    <div ref={ref} className="w-30 h-30 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+    <div ref={ref} className="w-30 h-30 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 opacity-90">
       <Player
         autoplay
         loop
