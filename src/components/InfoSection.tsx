@@ -34,7 +34,7 @@ export default function InfoSection() {
                         <span>073-654-33-38</span>
                         <span>Info@linnnails.se</span>
                     </div>
-                    <span className="absolute right-0 bottom-0 m-12 text-3xl font-semibold opacity-45">Contact uppgifter*</span>
+                    <span className="absolute right-0 bottom-0 m-12 text-3xl font-semibold opacity-45">Kontaktuppgifter*</span>
                 </div>
                 <div className="rounded-3xl">
                 <ActionButton />

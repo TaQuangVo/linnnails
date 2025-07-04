@@ -45,7 +45,7 @@ export default function ServiceSection() {
             <h2 className="absolute top-0 left-0 p-7 text-white z-50 text-4xl font-semibold">Nagelförlängning</h2>
           </div>
         </div>
-        <div className="w-full flex justify-end my-8 text-4xl">
+        <div className="w-full flex justify-end my-8 text-3xl">
         <PricingDialog >
           <span className="underline cursor-pointer focus:outline-none">Se vår prislista.</span>
           </PricingDialog>
